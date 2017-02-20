@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rock interactive game</title>
+	<script type="text/javascript">
+			
+		function TouchMedix(){
+			var user_name= prompt("What is your name?","Enter your name here.");
+			if(user_name){
+				//alert("It's good to see  you,"+ user_name+"!");
+				Document.getElementById("medix").src = "smiley2.jpg";
+			}
+		}
+	</script>
+</head>
+	<body onload="alert('Hello javascripts');">	
+		<div style="text-align: center;">
+			<img id="medix" src="smiley1.png" align="center" width="90px" height="90px" alt="smiley" style="cursor: pointer;" onclick="TouchMedix();">
+				<p text-align:center> This is the demo version of the game and i am trying to developeing best version of it, if you have any suggestion or facing problem while using this application please contact at <a href="http://www.shrigajananmedics.com">ShriGajananMedics</a> </p>
+
+</div>
+</body>
+</html> 
